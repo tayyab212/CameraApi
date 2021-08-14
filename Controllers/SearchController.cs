@@ -65,19 +65,20 @@ namespace CameraSearch.Controllers
                          .ToList();
             Console.WriteLine("Name " + "ID   " + "City  " + "Country");
             List<UserDetails> cameraDetails = new List<UserDetails>();
-            UserDetails camera = new UserDetails();
+            
+            int counter = 1;
             foreach (var details in result)
             {
                 try
                 {
                     string[] Columns = details.Result.ID.Split(";");
-                    //details.Result.Name = Columns[0];
-                    //details.Result.Latitude = Columns[1];
-                    //details.Result.Longitude = Columns[2];
+                    UserDetails camera = new UserDetails();
+                    camera.Index = counter;
                     camera.Name = Columns[0];
                     camera.Latitude = Columns[1];
                     camera.Longitude = Columns[2];
                     cameraDetails.Add(camera);
+                    counter += 1;
                 }
                 catch (Exception ex)
                 {
