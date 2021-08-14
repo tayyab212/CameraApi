@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "UJ/Y7uSRRqgCXK+DuIy3nsfds8rW9/HTSum1mM/40xo40PGvRp3gqiQbUeDRgTSNGGPF2ZKPDY1ZBg6uFqepoQ==",
+  "success": true,
+  "projectFilePath": "D:\\Personal Projects\\CameraSearch\\CameraSearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ttahir\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
+    "C:\\Users\\ttahir\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\ttahir\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512",
+    "C:\\Users\\ttahir\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ttahir\\.nuget\\packages\\tinycsvparser\\2.6.1\\tinycsvparser.2.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
